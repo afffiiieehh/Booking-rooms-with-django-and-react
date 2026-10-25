@@ -146,7 +146,7 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://your-frontend.vercel.app",
+    "https://booking-rooms-with-django-and-react.onrender.com/",
 ]
 CORS_ALLOW_CREDENTIALS = True
 CROS_EXPOSE_HEADERS = [
