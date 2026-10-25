@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-5m(p=7doi-9w9s2r9wpc!(c2z1fa)7(u4ecu7cm_ejy1+2m9s#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "booking-rooms-with-django-and-react.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
@@ -141,8 +145,7 @@ REST_FRAMEWORK = {
 
 
 CSRF_TRUSTED_ORIGINS = [
-    'http://localhost:5173',
-    'http://127.0.0.1:5173'
+    "https://booking-rooms-with-django-and-react.onrender.com",
 ]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
