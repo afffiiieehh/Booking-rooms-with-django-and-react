@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { FaUser, FaCalendar } from "react-icons/fa";
 
 import RoomCard from "./RoomDetails/RoomCard";
 import "./BookingComponent.css";
