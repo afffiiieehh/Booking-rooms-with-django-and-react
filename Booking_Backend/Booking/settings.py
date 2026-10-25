@@ -149,7 +149,7 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://booking-rooms-with-django-and-react.onrender.com/",
+    "https://booking-rooms-with-django-and-react.onrender.com",
 ]
 CORS_ALLOW_CREDENTIALS = True
 CROS_EXPOSE_HEADERS = [
