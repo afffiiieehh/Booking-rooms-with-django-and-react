@@ -11,6 +11,7 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Booking_Backend.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Booking.settings')
 
 application = get_wsgi_application()
+

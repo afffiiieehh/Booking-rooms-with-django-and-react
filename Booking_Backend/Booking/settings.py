@@ -54,7 +54,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Booking_Backend.urls'
+ROOT_URLCONF = 'Booking.urls'
+WSGI_APPLICATION = 'Booking.wsgi.application'
 
 TEMPLATES = [
     {
@@ -71,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Booking_Backend.wsgi.application'
+WSGI_APPLICATION = 'Booking.wsgi.application'
 
 
 # Database
